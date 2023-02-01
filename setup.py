@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Deep_CNN_Classifier"
+REPO_NAME = "Consumer_Complaint_Analysis"
 AUTHOR_USER_NAME = "dhruv7477"
-SRC_REPO = "deepClassifier"
+SRC_REPO = "Consumer_Complaint_Analysis"
 AUTHOR_EMAIL = "dhruv7477@gmail.com"
 
 setuptools.setup(
@@ -15,7 +15,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A python solution for Credit Risk Analysis ANN app",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

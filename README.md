@@ -1,4 +1,4 @@
-# Deep Classifier project
+# Consumer Complaint Analysis
 
 ## workflow
 
@@ -13,23 +13,3 @@
 9. run tox for testing your package
 10. Update the dvc.yaml
 11. run "dvc repro" for running all the stages in pipeline
-
-![img](https://raw.githubusercontent.com/c17hawke/FSDS_NOV_deepCNNClassifier/main/docs/images/Data%20Ingestion%402x%20(1).png)
-
-
-STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
-
-MLFLOW_TRACKING_URI=https://dagshub.com/dhruv7477/Deep_CNN_Classifier.mlflow \
-MLFLOW_TRACKING_USERNAME=dhruv7477 \
-MLFLOW_TRACKING_PASSWORD=<> \
-python script.py
-
-STEP 2: install mlflow
-
-STEP 3: Set remote URI
-
-STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
-
-## Sample data for testing-
-
-https://raw.githubusercontent.com/c17hawke/raw_data/main/sample_data.zip
