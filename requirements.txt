@@ -1,4 +1,5 @@
-tensorflow
+torch
+transformers
 dvc
 pandas
 notebook
@@ -13,5 +14,10 @@ joblib
 types-PyYAML
 scipy
 mlflow
+scikit-learn
+lxml
+botocore
+h5py
+tensorboard
 
 -e .

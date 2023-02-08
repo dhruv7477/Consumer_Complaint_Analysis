@@ -1,6 +1,6 @@
-from deepClassifier.config import ConfigurationManager
-from deepClassifier.components import DataIngestion
-from deepClassifier import logger
+from Consumer_Complaint_Analysis.config import ConfigurationManager
+from Consumer_Complaint_Analysis.components import DataIngestion
+from Consumer_Complaint_Analysis import logger
 
 STAGE_NAME = "Data Ingestion stage"
 
